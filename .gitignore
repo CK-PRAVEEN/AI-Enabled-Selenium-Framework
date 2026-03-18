@@ -1,0 +1,25 @@
+# Maven target directory
+target/
+*.class
+
+# Eclipse / IntelliJ / VS Code project files
+.classpath
+.project
+.settings/
+.idea/
+*.iml
+.vscode/
+
+# Test output
+test-output/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Node
+selenium-mcp-server/node_modules/
+
+# Config (sensitive)
+src/test/resources/config.properties
+
